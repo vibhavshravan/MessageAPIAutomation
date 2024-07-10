@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="4.402" tests="14" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Message_API_Automation\target\test-classes;D:\Message_API_Automation\target\classes;C:\Users\vibha\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.3.0\maven-surefire-plugin-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\surefire-api\3.3.0\surefire-api-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.3.0\surefire-logger-api-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.3.0\surefire-shared-utils-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.3.0\surefire-extensions-api-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.3.0\maven-surefire-common-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\surefire-booter\3.3.0\surefire-booter-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.3.0\surefire-extensions-spi-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.4.1\maven-resolver-util-1.4.1.jar;C:\Users\vibha\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.4.1\maven-resolver-api-1.4.1.jar;C:\Users\vibha\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.4.0\maven-common-artifact-filters-3.4.0.jar;C:\Users\vibha\.m2\repository\org\codehaus\plexus\plexus-java\1.2.0\plexus-java-1.2.0.jar;C:\Users\vibha\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\vibha\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\vibha\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\vibha\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\vibha\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\vibha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vibha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vibha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vibha\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vibha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vibha\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vibha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vibha\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\vibha\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\vibha\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\vibha\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\vibha\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\vibha\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\vibha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\vibha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vibha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\vibha\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\vibha\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\vibha\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\vibha\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\vibha\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\vibha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\vibha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\vibha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\vibha\AppData\Local\Temp\surefire14521740969193804239\surefirebooter-20240710175552438_3.jar C:\Users\vibha\AppData\Local\Temp\surefire14521740969193804239 2024-07-10T17-55-52_258-jvmRun1 surefire-20240710175552438_1tmp surefire_0-20240710175552438_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Message_API_Automation\target\test-classes;D:\Message_API_Automation\target\classes;C:\Users\vibha\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.3.0\maven-surefire-plugin-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\surefire-api\3.3.0\surefire-api-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.3.0\surefire-logger-api-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.3.0\surefire-shared-utils-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.3.0\surefire-extensions-api-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.3.0\maven-surefire-common-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\surefire-booter\3.3.0\surefire-booter-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.3.0\surefire-extensions-spi-3.3.0.jar;C:\Users\vibha\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.4.1\maven-resolver-util-1.4.1.jar;C:\Users\vibha\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.4.1\maven-resolver-api-1.4.1.jar;C:\Users\vibha\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.4.0\maven-common-artifact-filters-3.4.0.jar;C:\Users\vibha\.m2\repository\org\codehaus\plexus\plexus-java\1.2.0\plexus-java-1.2.0.jar;C:\Users\vibha\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\vibha\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\vibha\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\vibha\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\vibha\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\vibha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vibha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vibha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vibha\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vibha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vibha\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vibha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vibha\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\vibha\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\vibha\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\vibha\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\vibha\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\vibha\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\vibha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\vibha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vibha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\vibha\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\vibha\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\vibha\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\vibha\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\vibha\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\vibha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\vibha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\vibha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vibha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Message_API_Automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\vibha\AppData\Local\Temp\surefire14521740969193804239\surefirebooter-20240710175552438_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="vibha"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\vibha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vibha\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="D:\Message_API_Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\vibha\Downloads\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Program Files\Java\jdk-22\bin;C:\Users\vibha\AppData\Local\Microsoft\WindowsApps;;C:\Users\vibha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vibha\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="sendMessage" classname="com.perrys.test.ListMessage" time="2.856">
+    <system-out><![CDATA[Starting Test1
+{
+    "from": {
+        "id": "85f897ed-4252-4a1d-9b6e-fed9aa31b0d0"
+    },
+    "to": {
+        "id": "02f07361-0d3c-4bff-bf8a-b278a0fd87ee"
+    },
+    "message": "GYGAKQMYZCSHNJY",
+    "id": "533c02b5-3740-4ab5-8c38-1a9c18031a89",
+    "time": "2024-07-10T12:25:55.596Z"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="sendReplyMessage" classname="com.perrys.test.ListMessage" time="0.047">
+    <system-out><![CDATA[Starting Test2
+{
+    "from": {
+        "id": "02f07361-0d3c-4bff-bf8a-b278a0fd87ee"
+    },
+    "to": {
+        "id": "85f897ed-4252-4a1d-9b6e-fed9aa31b0d0"
+    },
+    "message": "WVQPEAHTJZGZHGY",
+    "id": "8e9fffcf-73e8-43d1-889f-8db37f45ccca",
+    "time": "2024-07-10T12:25:56.486Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="sendReplyMessageAgain" classname="com.perrys.test.ListMessage" time="0.083">
+    <system-out><![CDATA[Starting Test3
+{
+    "from": {
+        "id": "02f07361-0d3c-4bff-bf8a-b278a0fd87ee"
+    },
+    "to": {
+        "id": "85f897ed-4252-4a1d-9b6e-fed9aa31b0d0"
+    },
+    "message": "ZMRAOFQCKIQDJNU",
+    "id": "5b3c5020-457c-443b-94bb-b3e76d2bcdaa",
+    "time": "2024-07-10T12:25:56.534Z"
+}
+{
+    "from": {
+        "id": "02f07361-0d3c-4bff-bf8a-b278a0fd87ee"
+    },
+    "to": {
+        "id": "85f897ed-4252-4a1d-9b6e-fed9aa31b0d0"
+    },
+    "message": "OWBASVLNHTEFKWX",
+    "id": "a78942f6-1a9b-400d-b6e8-1a195077e59b",
+    "time": "2024-07-10T12:25:56.575Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="validateErrorForFromId" classname="com.perrys.test.ListMessage" time="0.059">
+    <system-out><![CDATA[Starting Test4
+{
+    "error": {
+        "name": "ServiceError",
+        "message": "should be string",
+        "code": 400
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="validateErrorForMessage" classname="com.perrys.test.ListMessage" time="0.05">
+    <system-out><![CDATA[Starting Test6
+{
+    "error": {
+        "name": "ServiceError",
+        "message": "should be string",
+        "code": 400
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="validateErrorForToId" classname="com.perrys.test.ListMessage" time="0.05">
+    <system-out><![CDATA[Starting Test5
+{
+    "error": {
+        "name": "ServiceError",
+        "message": "should be string",
+        "code": 400
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUsingMessageId" classname="com.perrys.test.ListMessage" time="0.037">
+    <system-out><![CDATA[Starting Test7
+]]></system-out>
+  </testcase>
+  <testcase name="getUsingMessageId" classname="com.perrys.test.ListMessage" time="0.055">
+    <system-out><![CDATA[Starting Test9
+{
+    "from": {
+        "id": "85f897ed-4252-4a1d-9b6e-fed9aa31b0d0"
+    },
+    "to": {
+        "id": "02f07361-0d3c-4bff-bf8a-b278a0fd87ee"
+    },
+    "message": "GYGAKQMYZCSHNJY",
+    "id": "533c02b5-3740-4ab5-8c38-1a9c18031a89",
+    "time": "2024-07-10T12:25:55.596Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="validateGetDeletedMessageId" classname="com.perrys.test.ListMessage" time="0.021">
+    <system-out><![CDATA[Starting Test10
+]]></system-out>
+  </testcase>
+  <testcase name="validateInvalidMessageId" classname="com.perrys.test.ListMessage" time="0.023">
+    <system-out><![CDATA[Starting Test11
+]]></system-out>
+  </testcase>
+  <testcase name="getListFromTo" classname="com.perrys.test.ListMessage" time="0.126">
+    <system-out><![CDATA[Starting Test13
+[
+    {
+        "from": {
+            "id": "85f897ed-4252-4a1d-9b6e-fed9aa31b0d0"
+        },
+        "to": {
+            "id": "02f07361-0d3c-4bff-bf8a-b278a0fd87ee"
+        },
+        "message": "GYGAKQMYZCSHNJY",
+        "id": "533c02b5-3740-4ab5-8c38-1a9c18031a89",
+        "time": "2024-07-10T12:25:55.596Z"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getListToFrom" classname="com.perrys.test.ListMessage" time="0.05">
+    <system-out><![CDATA[Starting Test12
+[
+    {
+        "from": {
+            "id": "02f07361-0d3c-4bff-bf8a-b278a0fd87ee"
+        },
+        "to": {
+            "id": "85f897ed-4252-4a1d-9b6e-fed9aa31b0d0"
+        },
+        "message": "OWBASVLNHTEFKWX",
+        "id": "a78942f6-1a9b-400d-b6e8-1a195077e59b",
+        "time": "2024-07-10T12:25:56.575Z"
+    },
+    {
+        "from": {
+            "id": "02f07361-0d3c-4bff-bf8a-b278a0fd87ee"
+        },
+        "to": {
+            "id": "85f897ed-4252-4a1d-9b6e-fed9aa31b0d0"
+        },
+        "message": "ZMRAOFQCKIQDJNU",
+        "id": "5b3c5020-457c-443b-94bb-b3e76d2bcdaa",
+        "time": "2024-07-10T12:25:56.534Z"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="validateEitherFromOrToAsBlank" classname="com.perrys.test.ListMessage" time="0.053">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at com.perrys.test.ListMessage.validateEitherFromOrToAsBlank(ListMessage.java:100)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Starting Test15
+[
+    {
+        "from": {
+            "id": "85f897ed-4252-4a1d-9b6e-fed9aa31b0d0"
+        },
+        "to": {
+            "id": "02f07361-0d3c-4bff-bf8a-b278a0fd87ee"
+        },
+        "message": "GYGAKQMYZCSHNJY",
+        "id": "533c02b5-3740-4ab5-8c38-1a9c18031a89",
+        "time": "2024-07-10T12:25:55.596Z"
+    },
+    {
+        "from": {
+            "id": ""
+        },
+        "to": {
+            "id": ""
+        },
+        "message": "",
+        "name": null,
+        "id": "e8d4b1be-cec4-4990-b1bb-64bb7e5a8e06",
+        "time": "2024-07-09T22:11:26.324Z"
+    },
+    {
+        "from": {
+            "id": ""
+        },
+        "to": {
+            "id": ""
+        },
+        "message": "Is the task completed?",
+        "name": null,
+        "id": "bbc90547-49d5-4034-97f2-3ab8d917956b",
+        "time": "2024-07-09T22:11:26.238Z"
+    },
+    {
+        "from": {
+            "id": ""
+        },
+        "to": {
+            "id": ""
+        },
+        "message": "",
+        "name": null,
+        "id": "e245ba2f-1e56-4e53-9139-e9b5d5118f98",
+        "time": "2024-07-09T21:54:13.089Z"
+    },
+    {
+        "from": {
+            "id": ""
+        },
+        "to": {
+            "id": ""
+        },
+        "message": "Is the task completed?",
+        "name": null,
+        "id": "66836ead-9f7c-4f14-ace9-3d445e22af5a",
+        "time": "2024-07-09T21:54:12.988Z"
+    },
+    {
+        "from": {
+            "id": ""
+        },
+        "to": {
+            "id": ""
+        },
+        "message": "",
+        "name": null,
+        "id": "1b300fe1-1df5-4d0d-9d81-a09c3b5973b1",
+        "time": "2024-07-09T21:44:02.472Z"
+    },
+    {
+        "from": {
+            "id": ""
+        },
+        "to": {
+            "id": ""
+        },
+        "message": "Is the task completed?",
+        "name": null,
+        "id": "9d9776c0-d244-4ff9-9565-6994a963d6f6",
+        "time": "2024-07-09T21:44:02.380Z"
+    },
+    {
+        "from": {
+            "id": ""
+        },
+        "to": {
+            "id": ""
+        },
+        "message": "",
+        "name": null,
+        "id": "3a3e3642-679f-4a99-9f62-1adb63624f40",
+        "time": "2024-07-09T21:37:29.746Z"
+    },
+    {
+        "from": {
+            "id": ""
+        },
+        "to": {
+            "id": ""
+        },
+        "message": "Is the task completed?",
+        "name": null,
+        "id": "24838939-9305-4953-a4df-18410ad8b959",
+        "time": "2024-07-09T21:37:29.656Z"
+    },
+    {
+        "from": {
+            "id": ""
+        },
+        "to": {
+            "id": ""
+        },
+        "message": "",
+        "name": null,
+        "id": "57078136-f69f-4fd5-ac34-e666b90cf483",
+        "time": "2024-07-09T21:36:15.467Z"
+    },
+    {
+        "from": {
+            "id": ""
+        },
+        "to": {
+            "id": ""
+        },
+        "message": "Is the task completed?",
+        "name": null,
+        "id": "82d67d3e-499f-4f0f-9121-c26981fa2806",
+        "time": "2024-07-09T21:36:15.380Z"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="validateNoMessageBetweenFromTo" classname="com.perrys.test.ListMessage" time="0.02">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at com.perrys.test.ListMessage.validateNoMessageBetweenFromTo(ListMessage.java:83)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Starting Test14
+[
+    {
+        "from": {
+            "id": "85f897ed-4252-4a1d-9b6e-fed9aa31b0d0"
+        },
+        "to": {
+            "id": "02f07361-0d3c-4bff-bf8a-b278a0fd87ee"
+        },
+        "message": "GYGAKQMYZCSHNJY",
+        "id": "533c02b5-3740-4ab5-8c38-1a9c18031a89",
+        "time": "2024-07-10T12:25:55.596Z"
+    },
+    {
+        "from": {
+            "id": "8a606766-fd91-4d72-a39e-847fa2eb0a05"
+        },
+        "to": {
+            "id": "402e760d-24da-4deb-8f32-6480638ab886"
+        },
+        "message": "VFPTGZGTKSZHYBJ",
+        "id": "9e241e4f-d378-4cce-867f-17e250b6a144",
+        "time": "2024-07-10T02:35:05.154Z"
+    },
+    {
+        "from": {
+            "id": "8a606766-fd91-4d72-a39e-847fa2eb0a05"
+        },
+        "to": {
+            "id": "402e760d-24da-4deb-8f32-6480638ab886"
+        },
+        "message": "AFZLVYEAQNNBEZU",
+        "id": "3362fe80-8326-4788-841a-acf05b5e51b7",
+        "time": "2024-07-10T02:35:05.103Z"
+    }
+]
+]]></system-out>
+  </testcase>
+</testsuite>

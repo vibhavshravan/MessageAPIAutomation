@@ -1,0 +1,9 @@
+{
+  "from" : {
+    "id" : "42fb6153-1ab3-4b0f-a972-78b7994e3b08"
+  },
+  "to" : {
+    "id" : "e009054b-db3f-4ba6-a6da-a5ac5b728d52"
+  },
+  "message" : "NADZLECKRSZRCLM"
+}

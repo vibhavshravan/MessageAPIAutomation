@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="37" passed="35" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-10T18:06:44 IST" name="Default suite" finished-at="2024-07-10T18:06:50 IST" duration-ms="5736">
+    <groups>
+    </groups>
+    <test started-at="2024-07-10T18:06:44 IST" name="Default test" finished-at="2024-07-10T18:06:50 IST" duration-ms="5736">
+      <class name="com.perrys.test.ListMessage">
+        <test-method is-config="true" signature="setFromAndToId()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:44 IST" name="setFromAndToId" finished-at="2024-07-10T18:06:44 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFromAndToId -->
+        <test-method signature="sendMessage()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:44 IST" name="sendMessage" finished-at="2024-07-10T18:06:48 IST" duration-ms="3358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessage -->
+        <test-method signature="sendReplyMessage()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:48 IST" name="sendReplyMessage" finished-at="2024-07-10T18:06:48 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendReplyMessage -->
+        <test-method signature="sendReplyMessageAgain()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:48 IST" name="sendReplyMessageAgain" finished-at="2024-07-10T18:06:48 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendReplyMessageAgain -->
+        <test-method signature="validateErrorForFromId()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:48 IST" name="validateErrorForFromId" finished-at="2024-07-10T18:06:48 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForFromId -->
+        <test-method signature="validateErrorForMessage()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:48 IST" name="validateErrorForMessage" finished-at="2024-07-10T18:06:48 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForMessage -->
+        <test-method signature="validateErrorForToId()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:48 IST" name="validateErrorForToId" finished-at="2024-07-10T18:06:48 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForToId -->
+        <test-method signature="deleteUsingMessageId()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:48 IST" name="deleteUsingMessageId" finished-at="2024-07-10T18:06:48 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUsingMessageId -->
+        <test-method signature="getUsingMessageId()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:48 IST" name="getUsingMessageId" finished-at="2024-07-10T18:06:48 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsingMessageId -->
+        <test-method signature="validateGetDeletedMessageId()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:48 IST" name="validateGetDeletedMessageId" finished-at="2024-07-10T18:06:48 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetDeletedMessageId -->
+        <test-method signature="validateInvalidMessageId()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:48 IST" name="validateInvalidMessageId" finished-at="2024-07-10T18:06:48 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidMessageId -->
+        <test-method signature="getListFromTo()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:48 IST" name="getListFromTo" finished-at="2024-07-10T18:06:49 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListFromTo -->
+        <test-method signature="getListToFrom()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:49 IST" name="getListToFrom" finished-at="2024-07-10T18:06:49 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListToFrom -->
+        <test-method signature="validateEitherFromOrToAsBlank()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:49 IST" name="validateEitherFromOrToAsBlank" finished-at="2024-07-10T18:06:49 IST" duration-ms="49" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <404> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <200>.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at com.perrys.test.ListMessage.validateEitherFromOrToAsBlank(ListMessage.java:100)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEitherFromOrToAsBlank -->
+        <test-method signature="validateNoMessageBetweenFromTo()[pri:0, instance:com.perrys.test.ListMessage@7674f035]" started-at="2024-07-10T18:06:49 IST" name="validateNoMessageBetweenFromTo" finished-at="2024-07-10T18:06:49 IST" duration-ms="31" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <404> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <404> but was <200>.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at com.perrys.test.ListMessage.validateNoMessageBetweenFromTo(ListMessage.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNoMessageBetweenFromTo -->
+      </class> <!-- com.perrys.test.ListMessage -->
+      <class name="com.perrys.test.CreateMessage">
+        <test-method signature="sendMessage()[pri:0, instance:com.perrys.test.CreateMessage@76b1e9b8]" started-at="2024-07-10T18:06:49 IST" name="sendMessage" finished-at="2024-07-10T18:06:49 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessage -->
+        <test-method signature="sendReplyMessage()[pri:0, instance:com.perrys.test.CreateMessage@76b1e9b8]" started-at="2024-07-10T18:06:49 IST" name="sendReplyMessage" finished-at="2024-07-10T18:06:49 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendReplyMessage -->
+        <test-method signature="sendReplyMessageAgain()[pri:0, instance:com.perrys.test.CreateMessage@76b1e9b8]" started-at="2024-07-10T18:06:49 IST" name="sendReplyMessageAgain" finished-at="2024-07-10T18:06:49 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendReplyMessageAgain -->
+        <test-method signature="validateErrorForFromId()[pri:0, instance:com.perrys.test.CreateMessage@76b1e9b8]" started-at="2024-07-10T18:06:49 IST" name="validateErrorForFromId" finished-at="2024-07-10T18:06:49 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForFromId -->
+        <test-method signature="validateErrorForMessage()[pri:0, instance:com.perrys.test.CreateMessage@76b1e9b8]" started-at="2024-07-10T18:06:49 IST" name="validateErrorForMessage" finished-at="2024-07-10T18:06:49 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForMessage -->
+        <test-method signature="validateErrorForToId()[pri:0, instance:com.perrys.test.CreateMessage@76b1e9b8]" started-at="2024-07-10T18:06:49 IST" name="validateErrorForToId" finished-at="2024-07-10T18:06:49 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForToId -->
+      </class> <!-- com.perrys.test.CreateMessage -->
+      <class name="com.perrys.test.GetMessage">
+        <test-method signature="sendMessage()[pri:0, instance:com.perrys.test.GetMessage@27406a17]" started-at="2024-07-10T18:06:49 IST" name="sendMessage" finished-at="2024-07-10T18:06:49 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessage -->
+        <test-method signature="sendReplyMessage()[pri:0, instance:com.perrys.test.GetMessage@27406a17]" started-at="2024-07-10T18:06:49 IST" name="sendReplyMessage" finished-at="2024-07-10T18:06:49 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendReplyMessage -->
+        <test-method signature="sendReplyMessageAgain()[pri:0, instance:com.perrys.test.GetMessage@27406a17]" started-at="2024-07-10T18:06:49 IST" name="sendReplyMessageAgain" finished-at="2024-07-10T18:06:49 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendReplyMessageAgain -->
+        <test-method signature="validateErrorForFromId()[pri:0, instance:com.perrys.test.GetMessage@27406a17]" started-at="2024-07-10T18:06:49 IST" name="validateErrorForFromId" finished-at="2024-07-10T18:06:49 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForFromId -->
+        <test-method signature="validateErrorForMessage()[pri:0, instance:com.perrys.test.GetMessage@27406a17]" started-at="2024-07-10T18:06:49 IST" name="validateErrorForMessage" finished-at="2024-07-10T18:06:49 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForMessage -->
+        <test-method signature="validateErrorForToId()[pri:0, instance:com.perrys.test.GetMessage@27406a17]" started-at="2024-07-10T18:06:49 IST" name="validateErrorForToId" finished-at="2024-07-10T18:06:50 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForToId -->
+        <test-method signature="deleteUsingMessageId()[pri:0, instance:com.perrys.test.GetMessage@27406a17]" started-at="2024-07-10T18:06:50 IST" name="deleteUsingMessageId" finished-at="2024-07-10T18:06:50 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUsingMessageId -->
+        <test-method signature="getUsingMessageId()[pri:0, instance:com.perrys.test.GetMessage@27406a17]" started-at="2024-07-10T18:06:50 IST" name="getUsingMessageId" finished-at="2024-07-10T18:06:50 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsingMessageId -->
+        <test-method signature="validateGetDeletedMessageId()[pri:0, instance:com.perrys.test.GetMessage@27406a17]" started-at="2024-07-10T18:06:50 IST" name="validateGetDeletedMessageId" finished-at="2024-07-10T18:06:50 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetDeletedMessageId -->
+        <test-method signature="validateInvalidMessageId()[pri:0, instance:com.perrys.test.GetMessage@27406a17]" started-at="2024-07-10T18:06:50 IST" name="validateInvalidMessageId" finished-at="2024-07-10T18:06:50 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidMessageId -->
+      </class> <!-- com.perrys.test.GetMessage -->
+      <class name="com.perrys.test.DeleteMessage">
+        <test-method signature="sendMessage()[pri:0, instance:com.perrys.test.DeleteMessage@2af004b]" started-at="2024-07-10T18:06:50 IST" name="sendMessage" finished-at="2024-07-10T18:06:50 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMessage -->
+        <test-method signature="sendReplyMessage()[pri:0, instance:com.perrys.test.DeleteMessage@2af004b]" started-at="2024-07-10T18:06:50 IST" name="sendReplyMessage" finished-at="2024-07-10T18:06:50 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendReplyMessage -->
+        <test-method signature="sendReplyMessageAgain()[pri:0, instance:com.perrys.test.DeleteMessage@2af004b]" started-at="2024-07-10T18:06:50 IST" name="sendReplyMessageAgain" finished-at="2024-07-10T18:06:50 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendReplyMessageAgain -->
+        <test-method signature="validateErrorForFromId()[pri:0, instance:com.perrys.test.DeleteMessage@2af004b]" started-at="2024-07-10T18:06:50 IST" name="validateErrorForFromId" finished-at="2024-07-10T18:06:50 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForFromId -->
+        <test-method signature="validateErrorForMessage()[pri:0, instance:com.perrys.test.DeleteMessage@2af004b]" started-at="2024-07-10T18:06:50 IST" name="validateErrorForMessage" finished-at="2024-07-10T18:06:50 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForMessage -->
+        <test-method signature="validateErrorForToId()[pri:0, instance:com.perrys.test.DeleteMessage@2af004b]" started-at="2024-07-10T18:06:50 IST" name="validateErrorForToId" finished-at="2024-07-10T18:06:50 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorForToId -->
+        <test-method signature="deleteUsingMessageId()[pri:0, instance:com.perrys.test.DeleteMessage@2af004b]" started-at="2024-07-10T18:06:50 IST" name="deleteUsingMessageId" finished-at="2024-07-10T18:06:50 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUsingMessageId -->
+      </class> <!-- com.perrys.test.DeleteMessage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,9 @@
+{
+  "from" : {
+    "id" : "c771a34f-14d6-434a-84cc-1be4eaa39a25"
+  },
+  "to" : {
+    "id" : "f56bc6d8-b869-4854-96fa-f138df7de052"
+  },
+  "message" : "ZMXTCMSNHERGAZM"
+}

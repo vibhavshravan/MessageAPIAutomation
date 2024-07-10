@@ -1,0 +1,9 @@
+{
+  "from" : {
+    "id" : "02f07361-0d3c-4bff-bf8a-b278a0fd87ee"
+  },
+  "to" : {
+    "id" : "85f897ed-4252-4a1d-9b6e-fed9aa31b0d0"
+  },
+  "message" : "OWBASVLNHTEFKWX"
+}
